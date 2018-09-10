@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+body {
+    background-image: url("fondo1.jpg" );   
+
+    max-width:100%;
+    height:auto;
+}
+
+.menu h1 {
+  position: relative; left: 500px;
+  font-family: 'Times New Roman', Times, serif;
+  color:white;
+  font: size 5vw; }
+
+.frase{
+
+position: relative; top: 350px; left: 500px;
+color:white;
+font-family: 'Times New Roman', Times, serif;
+font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.col-3 h3{
+  
+  color: white;
+  text-align: center; }
+
+.col-3 a>span{
+    text-align: center;  }
+.col-3{padding-left: 50px;}
+
+
+
+footer{
+
+  min-height: 70px;
+  background-color: #191919;
+  background-image: -moz-linear-gradient(top, #191919, #000000);
+  background-image: -o-linear-gradient(top, #191919, #000000);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #191919), color-stop(1, #000000));
+  background-image: -webkit-linear-gradient(#191919, #000000);
+  background-image: linear-gradient(top, #191919, #000000);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#191919', endColorStr='#000000');
+  border-top: 1px solid rgba(50, 50, 50, 0.3);
+  width: 100%;
+  position: relative;
+  clear: both;
+  margin-top: 0px;
+  padding-top: 0px;
+  overflow: visible;
+  top:93%;
+}
+
+.cuerpo {
+  border: 1px solid;
+  height:auto;
+	width: auto;
+	overflow: scroll;
+}
+.mensajes {
+  height: auto;
+  size: auto;
+  padding-top: 150px;
+  position: relative;
+}
+.mensajes p{
+	padding:4px;
+	color:#fff;
+}
+
+/* clases del boton de marcos*/
+.btn{
+  width: 300px;
+  height: 60px;
+  font-size: 24px;
+  margin: auto;
+  border-style: none;
+  background: rgb(4, 150, 213);
+  color: white; 
+  transition: all 300ms;
+  /*animation: btn-girar 4s infinite;*/
+}
+.btn:hover{
+  background:rgb(128, 212, 251);
+  transition: all 300ms;
+  cursor: pointer;
+  box-shadow: 0px 0px 40px 0px blue;
+}
+.btn:active{
+  background: rgb(101, 152, 177);
+  transition: all 100ms;
+  color: black;
+  transform: scale(1.9);
+}
+/* fin de boton*/
+
+
+/*Comienzo de slide de marcos*/
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+
+.swiper-slide {
+    font-size: 18px;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 40px 60px;
+}
+.parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+.swiper-slide .title {
+    font-size: 41px;
+    font-weight: 300;
+    text-align: center;  
+}
+.swiper-slide .subtitle {
+    font-size: 21px;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+.swiper-slide .imagenes{
+    height: 40%;
+    margin: auto;
+    display: block;
+    margin: 5px 10px 10px 350px;    
+}
+.swiper-slide .text {
+    font-size: 14px;
+    margin: auto;
+    display: block;
+    max-width: 400px;
+    line-height: 1.3;
+}
+/*Fin de slide de marcos*/
