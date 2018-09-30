@@ -27,15 +27,8 @@
           </div>
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Inicio</a></li>
-            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Informacion <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <p>El sendero se trata de un proyecto y lalalala</p>
-                <p>ver mas en: <a href="clustertecnologicocatamarca.com.ar"></a></p> 
-
-              </ul>
-            </li>
-            <li><a href="#">Queres sumarte?</a></li>
-          </ul>
+            <li><a href="#login">Queres sumarte?</a></li>
+          </ul> 
         </div>
       </nav>
       
@@ -63,7 +56,7 @@
           </div>
         
           <div class="item">
-            <img src="imagen3.png" alt="New york" style="width:100%;">
+            <img src="frase3.png" alt="New york" style="width:100%;">
             <div class="carousel-caption"><a href="Presentacion.html"><button class="btn">Equipo A1</button></a>
             </div>
           </div>
@@ -84,11 +77,54 @@
     <div> <form action=""></form>
     </div>
 
-    <div>
-      <form action="" method="post">
-        <input type="text">
-      </form>
+    <div id = "body_form">
+      <div id="login">
+          <h2 id ="formulario">Completar formulario</h2>
+          <input name="nomyap" placeholder="Nombre y apellido" type="text" required>
+          <input id="pw" name="password" placeholder="Contraseña" type="password" required>
+          <input name="email" placeholder="E-Mail" type="text" required>
+          <label for="genero" id="genero">Genero</label><br>
+          <input type="radio" name="genero">Masculino<br>
+          <input type="radio" name="genero">Femenino<br>
+          <input type="radio" name="genero">Otro<br>
+          <input type="tel" name="telefono" placeholder="Telefono - Formato: 383-0000000"
+          pattern="[3]{1}[8]{1}[3]{1}-[0-9]{1}[0-9]{6}" required>
+          <div class="agree">
+            <input id="agree" name="agree" type="checkbox">
+          </div>
+          <input class="animated" type="submit" value="Enviar Formulario">
+      </div>
     </div>
+
+    <!-- <div id="desplaza">
+      <div id="desplaza2">
+      <form action="" method="post">
+        <fieldset>
+          <legend class="datos_obl">Datos Obligatorios</legend>
+          
+          <label for="nombre">Nombre</label><br>
+          <input type="text" required placeholder="Ingrese su nombre.."><br>
+
+          <label for="apellido">Apellido</label><br>
+          <input type="text" required placeholder="Ingrese su apellido.."><br>
+
+          <label for="email">Email</label><br>
+          <input type="email" name="email" required placeholder="Ej: index@gmail.com..."><br>
+
+          <label for="genero">Genero</label><br>
+          <input type="radio" name="genero">Masculino<br>
+          <input type="radio" name="genero">Femenino<br>
+          <input type="radio" name="genero">Otro<br>
+          
+          <label for="telefono">Telefono</label><br>
+          <input type="tel" name="telefono" required placeholder="Formato: 383-4000000"
+          pattern="[3]{1}[8]{1}[3]{1}-[0-9]{1}[0-9]{6}"><br>
+
+          <input type="submit">
+        </fieldset>
+      </form>
+      </div>
+    </div> -->
 </body>
 
 <!-- Footer -->
@@ -124,8 +160,7 @@
     <!-- Social buttons -->
 
   </div>
-  <!-- Footer Elements -->
-
+  <!-- Footer Elements -->  
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2018 Copyright:</div>
   <!-- Copyright -->

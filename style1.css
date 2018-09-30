@@ -51,14 +51,14 @@ a {
   text-decoration: none;
 }
 
-.col-3 h3{
+.col-9 h3{
   
   color: white;
   text-align: center; }
 
-.col-3 a>span{
+.col-9 a>span{
     text-align: center;  }
-.col-3{padding-left: 50px;}
+.col-9{padding-left: 50px;}
 
 
 
@@ -175,3 +175,132 @@ footer{
     line-height: 1.3;
 }
 /*Fin de slide de marcos*/
+
+/* #desplaza {
+  margin: 150px;
+  padding: 0;
+  background: #2E3740;
+  color: #435160;
+  font-family: "Open Sans", sans-serif;
+}
+
+#desplaza .datos_obl{
+  color: #6D7781;
+  font-family: "Sofia", cursive;
+  font-size: 15px;
+  font-weight: bold;
+  font-size: 3.6em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+ */
+
+#body_form{
+  background-color: cornflowerblue;
+  opacity: 0.8;
+  
+  
+}
+
+#login #formulario {
+  color:orangered;
+  font-family: "Sofia", cursive;
+  font-size: 15px;
+  font-weight: bold;
+  font-size: 3.6em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+#login {
+  width: 350px;
+  position: relative;
+  top: 10%;
+  left: 50%;
+  margin-left: -175px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+input[type="text"], input[type="password"], input[type="tel"]{
+  width: 350px;
+  padding: 20px 0px;
+  background:transparent;
+  border: 0;
+  border-bottom: 5px solid #435160;
+  outline: none;
+  color: beige;
+  font-size: 30px;
+  
+}
+input[type=checkbox] {
+  display: none;
+}
+
+#agree:checked ~ label[for=agree] {
+  background: #435160;
+}
+
+input[type="submit"] {
+  background: #1FCE6D;
+  border: 0;
+  width: 350px;
+  height: 40px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+input[type="submit"]:hover {
+  background: #16aa56;
+  animation-name: shake;
+}
+
+.forgot {
+  margin-top: 30px;
+  display: block;
+  font-size: 11px;
+  text-align: center;
+  font-weight: bold;
+}
+.forgot:hover {
+  margin-top: 30px;
+  display: block;
+  font-size: 11px;
+  text-align: center;
+  font-weight: bold;
+  color: #6D7781;
+}
+
+.agree {
+  padding: 30px 0px;
+  font-size: 12px;
+  text-indent: 25px;
+  line-height: 15px;
+}
+
+::-webkit-input-placeholder {
+  color: antiquewhite;
+  font-size: 50%;
+}
+
+.animated {
+  animation-fill-mode: both;
+  animation-duration: 1s;
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(10px);
+  }
+}
+
+
