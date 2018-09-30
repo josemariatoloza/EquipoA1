@@ -78,22 +78,24 @@
     </div>
 
     <div id = "body_form">
-      <div id="login">
-          <h2 id ="formulario">Completar formulario</h2>
-          <input name="nomyap" placeholder="Nombre y apellido" type="text" required>
-          <input id="pw" name="password" placeholder="Contraseña" type="password" required>
-          <input name="email" placeholder="E-Mail" type="text" required>
-          <label for="genero" id="genero">Genero</label><br>
-          <input type="radio" name="genero">Masculino<br>
-          <input type="radio" name="genero">Femenino<br>
-          <input type="radio" name="genero">Otro<br>
-          <input type="tel" name="telefono" placeholder="Telefono - Formato: 383-0000000"
-          pattern="[3]{1}[8]{1}[3]{1}-[0-9]{1}[0-9]{6}" required>
-          <div class="agree">
-            <input id="agree" name="agree" type="checkbox">
-          </div>
-          <input class="animated" type="submit" value="Enviar Formulario">
-      </div>
+      <form action="#" method="POST">
+        <div id="login">
+            <h2 id ="formulario">Completar formulario</h2>
+            <input name="nomyap" placeholder="Nombre y apellido" type="text" required>
+            <input id="pw" name="password" placeholder="Contraseña" type="password" required>
+            <input name="email" placeholder="E-Mail" type="email" required><br>
+            <label for="genero" id="genero">Genero</label><br>
+            <input type="radio" name="genero">Masculino<br>
+            <input type="radio" name="genero">Femenino<br>
+            <input type="radio" name="genero">Otro<br>
+            <input type="tel" name="telefono" placeholder="Telefono - Formato: 383-0000000"
+            pattern="[3]{1}[8]{1}[3]{1}-[0-9]{1}[0-9]{6}" required>
+            <div class="agree">
+              <input id="agree" name="agree" type="checkbox">
+            </div>
+            <input class="animated" type="submit" value="Enviar Formulario">
+        </div>
+      </form>
     </div>
 
     <!-- <div id="desplaza">

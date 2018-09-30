@@ -203,7 +203,7 @@ footer{
 }
 
 #login #formulario {
-  color:orangered;
+  color:white;
   font-family: "Sofia", cursive;
   font-size: 15px;
   font-weight: bold;
@@ -223,7 +223,7 @@ footer{
   margin-bottom: 100px;
 }
 
-input[type="text"], input[type="password"], input[type="tel"]{
+input[type="text"], input[type="password"], input[type="tel"], input[type="email"]{
   width: 350px;
   padding: 20px 0px;
   background:transparent;
@@ -233,6 +233,10 @@ input[type="text"], input[type="password"], input[type="tel"]{
   color: beige;
   font-size: 30px;
   
+}
+
+#genero{
+  color: antiquewhite;
 }
 input[type=checkbox] {
   display: none;
