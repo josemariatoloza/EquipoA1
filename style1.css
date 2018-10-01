@@ -99,18 +99,26 @@ footer{
 	color:#fff;
 }
 
+/*Model - Sendero*/
+
+
+
 /* clases del boton de marcos*/
 .btn{
   width: 300px;
   height: 60px;
-  font-size: 24px;
+  font-size: 20px;
   margin: auto;
   border-style: none;
   background: rgb(4, 150, 213);
   color: white; 
   transition: all 300ms;
+  
   /*animation: btn-girar 4s infinite;*/
+  
 }
+
+
 .btn:hover{
   background:rgb(128, 212, 251);
   transition: all 300ms;
@@ -225,7 +233,7 @@ footer{
 
 input[type="text"], input[type="password"], input[type="tel"], input[type="email"]{
   width: 350px;
-  padding: 20px 0px;
+  padding: 10px 0px;
   background:transparent;
   border: 0;
   border-bottom: 5px solid #435160;
@@ -248,17 +256,17 @@ input[type=checkbox] {
 
 input[type="submit"] {
   background: #1FCE6D;
-  border: 0;
+  border: 10px;
   width: 350px;
-  height: 40px;
+  height: 70px;
   border-radius: 3px;
   color: #fff;
-  font-size: 12px;
+  font-size: 20px;
   cursor: pointer;
   transition: background 0.3s ease-in-out;
 }
 input[type="submit"]:hover {
-  background: #16aa56;
+  background: black;
   animation-name: shake;
 }
 
