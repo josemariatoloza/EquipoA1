@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pagina inicio</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="botstrap/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -12,11 +13,6 @@
     <link rel="stylesheet" type="text/css" href="style1.css">
     
 </head>
-<!--Scrip-->
-<script src="botstrap/jquery-3.3.1.min.js"></script>
-<script src="botstrap/bootstrap.js"></script>  
-
-<!--Scrip-->
 
 
 <body>
@@ -27,7 +23,7 @@
           </div>
           <ul class="nav navbar-nav">
            
-            <li><a href="#login">Queres sumarte?</a></li>
+            <li><a href="#login">¿Querés sumarte?</a></li>
           </ul> 
         </div>
       </nav>
@@ -100,25 +96,28 @@
     <div id = "body_form">
       <form action="#" method="POST">
         <div id="login">
-            <h2 id ="formulario">Completar formulario</h2>
+            <h2 id ="formulario">¿Querés sumarte?</h2>
             <input name="nomyap" placeholder="Nombre y apellido" type="text" required>
             <input id="pw" name="password" placeholder="Contraseña" type="password" required>
             <input name="email" placeholder="E-Mail" type="email" required><br>
-            <label for="genero" id="genero">Genero</label><br>
-            <input type="radio" name="genero">Masculino<br>
-            <input type="radio" name="genero">Femenino<br>
-            <input type="radio" name="genero">Otro<br>
-            <input type="tel" name="telefono" placeholder="Telefono - Formato: 383-0000000"
+            <label for="genero" id="genero">Género</label><br>
+            <span class="radio_form"><input type="radio" name="genero">Masculino<br></span>
+            <span class="radio_form"><input type="radio" name="genero">Femenino<br></span>
+            <span class="radio_form"><input type="radio" name="genero" checked>Otro<br></span>
+            <input type="tel" name="telefono" placeholder="Telefono - Formato: 383-4321123"
             pattern="[3]{1}[8]{1}[3]{1}-[0-9]{1}[0-9]{6}" required>
             <div class="agree">
               <input id="agree" name="agree" type="checkbox">
             </div>
             <input class="animated" type="submit" value="Enviar Formulario">
-            <a class="animated" href="#inicio" value="Inicio">Inicio </a> 
+            
         </div>
       </form>
     </div>
-
+    <a href="#" id="js_up" class="boton-subir">
+      <!-- link del icono http://fontawesome.io/icon/rocket/ -->
+      <i class="fa fa-rocket" aria-hidden="true"></i>
+    </a>
     <!-- <div id="desplaza">
       <div id="desplaza2">
       <form action="" method="post">
@@ -148,9 +147,9 @@
       </form>
       </div>
     </div> -->
-</body>
 
-<!-- Footer -->
+
+  <!-- Footer -->
 <footer class="page-footer font-small special-color-dark pt-4">
 
   <!-- Footer Elements -->
@@ -190,5 +189,24 @@
 
 </footer>
 <!-- Footer -->
+
+
+
+
+
+
+
+
+  <!--Scrip-->
+  <!-- <script src="botstrap/jquery-3.3.1.min.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/boton_up.js"></script>
+  <script src="botstrap/bootstrap.js"></script>
+
+  <!--Scrip-->
+
+  
+</body>
+
 
 </html>

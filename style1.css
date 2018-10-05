@@ -204,8 +204,8 @@ footer{
  */
 
 #body_form{
-  background-color: cornflowerblue;
-  opacity: 0.8;
+  background-color: rgb(170, 12, 170);
+  opacity: .9;
   
   
 }
@@ -236,15 +236,22 @@ input[type="text"], input[type="password"], input[type="tel"], input[type="email
   padding: 10px 0px;
   background:transparent;
   border: 0;
-  border-bottom: 5px solid #435160;
+  border-bottom: 5px solid #ffffff;
   outline: none;
-  color: beige;
-  font-size: 30px;
+  color: #ffffff;
+  font-size: 20px;
   
+}
+
+.radio_form{
+  background:transparent;
+  color: #ffffff;
+  font-size: 15px;
 }
 
 #genero{
   color: antiquewhite;
+  font-size: 20px;
 }
 input[type=checkbox] {
   display: none;
@@ -316,3 +323,27 @@ input[type="submit"]:hover {
 }
 
 
+/*botón up*/
+.boton-subir{
+  display: none;
+  background: #00974B;
+  border: thin solid #fff;
+  border-radius: 3px;
+  position: fixed;
+  right: 15px;
+  bottom:2px;
+  z-index: 999999999;
+}
+/*evento hover*/
+.boton-subir:hover{
+  box-shadow:   0px 2px 10px 0px rgba(255, 255, 255, 0.75);
+}
+/*estilos para el tag i*/
+.boton-subir i{
+  color: #fff;
+  font-size: 1.5em;
+  padding: 10px 10px 10px 7px;
+  -ms-transform: rotate(-45deg); /* IE 9 */
+  -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+  transform: rotate(-45deg);
+}
