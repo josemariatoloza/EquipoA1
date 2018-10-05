@@ -1,3 +1,19 @@
+.inicio{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.tituloCentrado{
+    display: inline-block;
+}
+
+.tit{
+    text-align: center
+}
+
+
 .caption h2#tituloHtml{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: aliceblue;
@@ -10,7 +26,7 @@
     text-align: center;
 }
 
-.caption h2#tituloBoostrap{
+.caption h2#tituloBootstrap{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: aliceblue;
     text-align: center;
@@ -28,5 +44,31 @@ p.infoHtml{
 }
 
 p.infoHtml a.link{
+    font-family: fantasy,cursive;
+}
+
+p.infoCss3{
+    color:antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    font-size: 20px;
+    border: whitesmoke 5px solid;
+    padding: 10px 1px 10px 4px; 
+}
+
+p.infoCss3 a.link{
+    font-family: fantasy,cursive;
+}
+
+p.infoBootstrap{
+    color:antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    font-size: 20px;
+    border: whitesmoke 5px solid;
+    padding: 10px 1px 10px 4px; 
+}
+
+p.infoBootstrap a.link{
     font-family: fantasy,cursive;
 }
