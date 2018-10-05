@@ -39,17 +39,32 @@ body {
 }
 
 .swiper-slide .title {
-    font-size: 41px;
+    font-size: 33px;
     font-weight: 300;
     text-align: center;
+    font-family: fantasy;
+   
+    
+   
   
 }
 
 .swiper-slide .subtitle {
-    font-size: 21px;
+    font-size: 26px;
     margin: auto;
     display: block;
     text-align: center;
+    font-family: fantasy;
+    
+    
+}
+
+.tituloCentrado{
+    display: inline-block;
+}
+
+.tit{
+    text-align: center
 }
 
 .swiper-slide .imagen img{
@@ -66,13 +81,17 @@ body {
 }
 
 .swiper-slide .text {
-    font-size: 14px;
+    font-size: 16px;
     margin: auto;
     display: block;
     max-width: 400px;
     line-height: 1.3;
+    background-color: rgb(97, 104, 104);
+    border: darkorange 3px solid;
+    
 }
 
 .navbar{
     margin-bottom: 0px;
 }
+
